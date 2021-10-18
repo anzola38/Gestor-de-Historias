@@ -1,0 +1,47 @@
+.contenedor-panel-control {
+    opacity: 1;
+    padding-top: 70px;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenedor-panel-control.opacidad {
+    opacity: 0.2;
+    transition: all 700ms;
+}
+
+.contenedor-opciones {
+    background-color: #ff7f64;
+    border-radius: 5%;
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.contenedor-informacion {
+    overflow-y: scroll;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 1%;
+    width: 1000px;
+    height: 500px;
+}
+
+.administrar-opcion {
+    border: 0px solid;
+    background-color: #ff7f64;
+    color: white;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+#pimera-opcion {
+    padding-top: 15px;
+}
+
+#cerrar-session {
+    width: 100%;
+}

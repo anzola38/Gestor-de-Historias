@@ -1,0 +1,14 @@
+.crear-cuenta {
+    color: white;
+    transition: all 300ms;
+}
+
+.crear-cuenta:hover {
+    font-size: 140%;
+    color: #657052;
+    transition: all 300ms;
+}
+
+#formulario-ingresar {
+    padding-top: 200px;
+}

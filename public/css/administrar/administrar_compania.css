@@ -1,0 +1,9 @@
+.contenedor-informacion-compania {
+    position: relative;
+    width: 50%;
+}
+
+#formulario-registrar-compania {
+    height: 340px;
+    background-color: #2d3748;
+}

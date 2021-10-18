@@ -1,0 +1,79 @@
+.contenedor-formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    width: 250px;
+    height: 350px;
+    background-color: #8c9e6b;
+    border-radius: 2%;
+}
+
+.titulo-formulario {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.campo-formulario {
+    font-family: "Consolas", monospace;
+    width: 95%;
+    height: 25px;
+    margin: 10px;
+}
+
+.contenedor-campo-formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-formulario {
+    width: 93%;
+    height: 25px;
+    margin: 10px;
+}
+
+.boton-formulario {
+    width: 93%;
+    height: 35px;
+    margin: 10px;
+    background-color: #657052;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #d0d0d0;
+    font-size: 100%;
+}
+
+.ya-tengo-cuenta {
+    font-size: 140%;
+    color: #000000;
+    transition: all 300ms;
+}
+
+.ya-tengo-cuenta:hover {
+    font-size: 200%;
+    color: #000000;
+    transition: all 300ms;
+}
+
+.error {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.exito {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: white;
+    background-color: #00ad30;
+}
+
+#descripcionHistoria {
+    height: 70px;
+}

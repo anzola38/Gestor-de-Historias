@@ -1,0 +1,53 @@
+.contenedor-historias {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.historia {
+    color: black;
+    border-radius: 6%;
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.stiker-titulo-historia {
+    padding-left: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a {
+    text-decoration: none;
+}
+.historia.creada {
+    background-color: #9a9797;
+}
+.historia.desarrollo {
+    background-color: #ec7337;
+}
+.historia.pruebas {
+    background-color: #28859b;
+}
+.historia.terminada {
+    background-color: #289b36;
+}
+
+.contenedor-informacion::-webkit-scrollbar {
+    width: 6px;
+}
+
+.contenedor-informacion::-webkit-scrollbar-thumb {
+    background-color: #929292;
+    border-radius: 20px;
+}
+
+.contenedor-informacion::-webkit-scrollbar:horizontal {
+    height: 6px;
+    background-color: #929292;
+    border-radius: 20px;
+}

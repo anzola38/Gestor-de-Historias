@@ -1,0 +1,17 @@
+#contenedor-registrar_usuario {
+    padding-top: 50px;
+}
+
+#formulario-registrar-usuario {
+    height: 410px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#titulo-formulario-registrar-usuario {
+    font-size: 150%;
+    color: black;
+}

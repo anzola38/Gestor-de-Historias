@@ -1,0 +1,41 @@
+.encabezado {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.agregar {
+    border: 0px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: #ff7f64;
+}
+.contenedor-agregar {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 92%;
+    text-align: right;
+}
+
+.div-modal {
+    opacity: 0;
+    transition: all 600ms;
+    background-color: #ededee;
+    position: fixed;
+    z-index: 997;
+    width: 300px;
+    height: 350px;
+    border-radius: 2%;
+}
+
+.div-modal.opacidad {
+    opacity: 1;
+    transition: all 600ms;
+}
+
+.contenedor-modal {
+    display: flex;
+    justify-content: center;
+}

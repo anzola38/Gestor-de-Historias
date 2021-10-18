@@ -1,0 +1,88 @@
+.contenedor-informacion-historia {
+    display: flex;
+    justify-content: center;
+}
+.informacion-historia {
+    border-radius: 2%;
+    width: 50%;
+    background-color: #2d3748;
+}
+
+.creada {
+    color: white;
+    border-radius: 7%;
+    width: 80px;
+    background-color: #9a9797;
+}
+
+.desarrollo {
+    color: white;
+    border-radius: 7%;
+    width: 80px;
+    background-color: #ec7337;
+}
+
+.pruebas {
+    color: white;
+    border-radius: 7%;
+    width: 80px;
+    background-color: #28859b;
+}
+
+.terminada {
+    color: white;
+    border-radius: 7%;
+    width: 80px;
+    background-color: #289b36;
+}
+
+.cancelada {
+    color: white;
+    border-radius: 7%;
+    width: 80px;
+    background-color: #ff2d00;
+}
+
+.etiqueta-informacion-historia {
+    font-size: 120%;
+    color: white;
+    margin-bottom: -15px;
+    margin-top: -5px;
+}
+
+.avanzar-historia {
+    cursor: pointer;
+    font-size: 120%;
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px solid;
+    border-radius: 5%;
+    background-color: #65a608;
+}
+
+#comentarioTarea {
+    height: 100px;
+}
+
+.titulo-avanzar-tarea {
+    color: black;
+}
+
+.contenedor-avanzar-tarea {
+    background-color: #65a608;
+}
+
+.titulo-cancelar-tarea {
+    color: white;
+}
+
+.contenedor-cancelar-tarea {
+    background-color: #ff2d00;
+}
+
+.modificarTarea {
+    background-color: #f2ae2f;
+    color: black;
+}

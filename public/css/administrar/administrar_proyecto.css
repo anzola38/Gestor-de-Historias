@@ -1,0 +1,21 @@
+#contenedor-administrar {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-informacion-proyecto {
+    /*background-color: blue;*/
+    position: relative;
+    width: 50%;
+}
+
+#formulario-registrar-proyecto {
+    height: 190px;
+    background-color: #2d3748;
+}
+
+.contenedor-formulario {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
